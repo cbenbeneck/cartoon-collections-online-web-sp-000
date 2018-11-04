@@ -10,7 +10,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
-  calls.eql?(>4) 
+  planeteer_calls.eql?(>4) 
 end
 
 def find_the_cheese# code an argument here

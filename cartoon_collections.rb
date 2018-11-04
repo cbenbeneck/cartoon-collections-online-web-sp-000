@@ -5,7 +5,7 @@ dwarves.each_with_index{ |name, index|
 end 
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map{
+  planeteer_calls.map!{
   puts "#{planeteer_calls.upcase}!"
 end
 
